@@ -9,7 +9,7 @@ module.exports = buildModule("Insurance", (m) => {
     // const deployer = m.getAccount(0); // First account in Hardhat network (admin)
   
     // Deploy the DecentralizedInsurance contract with the deployer's address as the admin
-    const Insurance = m.contract("decentralizedInsurance", []);
+    const Insurance = m.contract("DecentralizedInsurance", []);
   
     return { Insurance };
   });
